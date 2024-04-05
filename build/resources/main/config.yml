@@ -1,0 +1,30 @@
+Cooldown: 5 #秒
+WorldList: #允许的世界
+  - world
+Messages:
+  StillCooling: "&a还在冷却中! 剩余 %time% 秒"
+  Reload: "&a重载成功!"
+VipPermission: "MuyeRightCheck.vip" #vip权限节点
+Groups:
+  vip:
+    - "&b&l宝可梦&f: %pokemon% &7Lv.&f%level%"
+    - "&7&l➮ &f主人: &7&o%owner% &f闪光: &7&o%shiny%"
+    - "&7&l➮ &b个体进度 &7( &f%ivstotal% &7)"
+    - " &7&l▪&f血量:&7&o %ivHp% &f攻击:&7&o %ivAttack% &f特攻:&7&o %ivSpecialAttack%"
+    - " &7&l▪&f防御:&7&o %ivDefence% &f特防:&7&o %ivSpecialDefence% &f速度:&7&o %ivSpeed%"
+    - "&7&l➮ &b努力值进度 &7( &f%evstotal% &7)"
+    - " &7&l▪&f血量:&7&o %evHp% &f攻击:&7&o %evAttack% &f特攻:&7&o %evSpecialAttack%"
+    - " &7&l▪&f防御:&7&o %evDefence% &f特防:&7&o %evSpecialDefence% &f速度:&7&o %evSpeed%"
+    - "&7&l➮ &b基础信息"
+    - " &7&l▪&f性格: &7&o%nature% &f性别: &7&o%gender%"
+    - " &7&l▪&f体型: &7&o%growth% &f特性: &7&o%ability%"
+    - "&7&l➮ &b技能信息"
+    - " &7&l▪&f%moves%"
+  default:
+    - "&b&l宝可梦&f: %pokemon% &7Lv.&f%level%"
+    - "&7&l➮ &f主人: &7&o%owner% &f闪光: &7&o%shiny%"
+    - "&7&l➮ &b基础信息"
+    - " &7&l▪&f性格: &7&o%nature% &f性别: &7&o%gender%"
+    - " &7&l▪&f体型: &7&o%growth% &f特性: &7&o%ability%"
+    - "&7&l➮ &b技能信息"
+    - " &7&l▪&f%moves%"

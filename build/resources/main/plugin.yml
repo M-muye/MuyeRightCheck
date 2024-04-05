@@ -1,0 +1,7 @@
+name: MuyeRightCheck
+version: '1.0-SNAPSHOT'
+main: com.muye.muyerightcheck.MuyeRightCheck
+commands:
+  MuyeRightCheck:
+    aliases:
+      - mrc

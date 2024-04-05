@@ -1,0 +1,7 @@
+name: MuyeRightCheck
+version: '${version}'
+main: com.muye.muyerightcheck.MuyeRightCheck
+commands:
+  MuyeRightCheck:
+    aliases:
+      - mrc
